@@ -6,3 +6,20 @@ body {
 a {
   color: #00B7FF;
 }
+body {
+  font-family:'Arial';
+  color:#646464;
+}		
+.continents-wrap {
+  float:left;
+  width:20%;
+  margin:0 5% 0 0;
+  padding:0;
+}		
+.search-variables {
+  float:left;
+  width:20%;
+  margin:0 5% 0 0;
+  padding:0;
+  position:relative;
+}	

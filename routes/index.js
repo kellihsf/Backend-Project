@@ -24,4 +24,9 @@ router.get('/profile', function(req, res, next) {
   res.render('profile', { name: 'Profile Page' });
 });
 
+/* SEARCH page */
+router.get('/search', function(req, res, next) {
+  res.render('search');
+});
+
 module.exports = router;
