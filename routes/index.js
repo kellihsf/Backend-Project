@@ -38,11 +38,11 @@ router.get('/register', function(req, res, next) {
 
 /* CONFIRMATION page */
 router.get('/confirmation', function(req, res, next) {
-  res.render('confirmation', { title: 'Pocket Sanwich!' });
+  res.render('confirmation', { title: 'Pocket Sandwich!' });
 });
 
 /* PROFILE page */
-router.get('/profile', isValidToken, function(req, res, next) {
+router.get('/profile/:id', isValidToken, function(req, res, next) {
   res.render('profile', { name: 'My Profile Page' });
 });
 
